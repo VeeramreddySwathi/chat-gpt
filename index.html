@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>New Chat</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <link rel="shortcut icon" href="http://chat.openai.com/favicon.ico" type="image/x-icon"/>
+</head>
+<body>
+    <div class="container">
+        <!-- Left Sidebar -->
+        <div class="left">
+            
+            <div class="new_chat">
+                <i class="bi bi-plus"></i>
+                <p>New chat</p>
+            </div>
+            <!-- Chat History -->
+            <div class="history">
+                <div class="buttons">
+                    <i class="bi bi-chat-left"></i>
+                </div>
+                <p class="title">Chat Gpt Clone</p>
+                
+            </div>
+            <div class="history">
+                <div class="buttons">
+                    <i class="bi bi-chat-left"></i>
+                </div>
+                <p class="title">Explain Javascript</p>
+            </div>
+            <div class="history">
+                <div class="buttons">
+                    <i class="bi bi-chat-left"></i>
+                </div>
+                <p class="title">Learn Programming</p>
+            </div>
+            <!-- Upgrade Section -->
+            <div class="upgrade">
+                <button>Upgrade To Plus</button>
+                <span class="upgrade_new">NEW</span>
+            </div>
+            <!-- Profile Section -->
+            <div class="profile">
+
+                <img src="logo/profile-pic.png" alt="swathi"/>
+                <h3>Swathi</h3>
+                
+                <span>...</span>
+            </div>
+        </div>
+
+        <!-- Right Sidebar -->
+        <div class="right">
+            <h1>Chat GPT</h1>
+            <div class="items">
+                <div class="item">
+                    <i class="bi bi-lightbulb"></i>
+                    <p>Examples</p>
+                    <div class="item_query">
+                        <button class="query example_query">Explain quantum computing in simple terms</button>
+                        <button class="query example_query">Got any creative ideas for a 10-year-old's birthday?</button>
+                        <button class="query example_query">How do I make an HTTP request in JavaScript?</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <i class="bi bi-gear"></i>
+                    <p>Capabilities</p>
+                    <div class="item_query">
+                        <button class="query">Remembering what user said earlier in the conversation</button>
+                        <button class="query">Allows user to provide follow-up corrections</button>
+                        <button class="query">Trained to decline inappropriate requests</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <i class="bi bi-exclamation-triangle"></i>
+                    <p>Limitations</p>
+                    <div class="item_query">
+                        <button class="query">May occasionally generate incorrect information</button>
+                        <button class="query">May occasionally produce harmful instructions or biased content</button>
+                        <button class="query">Limited knowledge of world and events after 2021</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Input Section -->
+            <div class="input">
+                <input type="text" class="chat_input" placeholder="Send Message Here..." value=""/>
+                <i class="bi bi-send"></i>
+                <p>
+                    Free Research Preview. ChatGPT may produce inaccurate information about people, places, or facts.
+                    <a href="http://help.openai.com/en/articles/6825453-chatgpt-release-notes">ChatGPT May 24 version</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="./main.js"></script>
+</body>
+</html>
